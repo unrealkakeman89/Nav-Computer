@@ -1,17 +1,42 @@
 {
-    "name": "Hyperspace Calculator",
+    "id": "sw5e-hyperspace-calculator",
+    "name": "SW5E Hyperspace Calculator",
     "title": "Hyperspace Calculator",
-    "description": "Calculate Hyperspace jumps for SW5E",
-    "author": "Kakeman89",
-    "version": "0.1",
-    "minimumCoreVersion": "0.7.6",
-    "compatibleCoreVersion": "0.7.9",
-    "styles": "./css/hyperspace.css",
-    "languages": [
+    "description": "Calculate hyperspace jumps between planets in the Star Wars universe using a player's piloting skill roll.",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "10"
+    },
+    "authors":  [
         {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }],
-    "system": "sw5e"
+            "name": "Kakeman89",
+            "url": "http://github.com/unrealkakeman89"
+        }
+    ],
+
+    "manifest": "module.json",
+    "styles": [
+        "styles/style.css"
+    ],
+
+    "relationships": {
+        "requires": [
+          {
+            "id": "sw5e",
+            "type": "system",
+            "manifest": "https://raw.githubusercontent.com/unrealkakeman89/sw5e/master/system.json"
+          }
+        ]
+      },
+    
+    "esmodules": [
+        "apps/main.js"
+    ],
+    "url": "This is auto replaced",
+    "manifest": "This is auto replaced",
+    "download": "This is auto replaced",
+    "license": "LICENSE",
+    "readme": "README.md"
   }
+  
